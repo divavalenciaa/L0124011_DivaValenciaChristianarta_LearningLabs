@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+header {
+  background-color: #6b4f4f;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+main h2 {
+  color: #6b4f4f;
+  margin-bottom: 1em;
+}
+
+main p,
+main ul {
+  margin-bottom: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 0.5em 0 0.2em;
+  color: #6b4f4f;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #6b4f4f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #4a3737;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #6b4f4f;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 2em;
+}
